@@ -1,0 +1,34 @@
+
+
+
+.imagenFondo{
+    background-image: url('../banco_de_imagenes/assassin__039_s_creed__2017_-5207802.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.nav{
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.imagenFondoLogin{
+    background-image: url();
+
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: calc(33.33% - 10px); /* Calcula el ancho para que haya espacio entre los elementos */
+    margin-bottom: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras en Columnas con Flexbox</title>
+    <!-- Enlace al archivo CSS de Bootstrap (puedes descargarlo o usar un enlace CDN) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            width: calc(33.33% - 10px); /* Calcula el ancho para que haya espacio entre los elementos */
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="flex-container">
+            <div class="flex-item">
+                <!-- Columna 1 -->
+                <p>Palabra 1</p>
+                <p>Palabra 2</p>
+                <p>Palabra 3</p>
+            </div>
+            <div class="flex-item">
+                <!-- Columna 2 -->
+                <p>Palabra 4</p>
+                <p>Palabra 5</p>
+                <p>Palabra 6</p>
+            </div>
+            <div class="flex-item">
+                <!-- Columna 3 -->
+                <p>Palabra 7</p>
+                <p>Palabra 8</p>
+                <p>Palabra 9</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript de Bootstrap (opcional, pero requerido para algunas funcionalidades) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
